@@ -1,0 +1,57 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"    
+    >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	>   
+	    <TextView
+	        android:id="@+id/descText"
+	        android:layout_marginTop="20dip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="20sp"
+	        android:textColor="#FFFFFF"
+	        style="@style/text_shadow_style"
+	        android:text="只有作为有灵魂的个人，而不是无个性的大众，才能走到经典中去" />
+	  
+	</LinearLayout>    
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    android:gravity="center"
+	>
+	    <Button
+	        android:id="@+id/btnDecrease"
+	        android:layout_width="100dip"
+	        android:layout_height="50dip"
+	        android:background="#51000000"
+	        android:textColor="#c1000000"
+	        android:text="-"
+	        android:textSize="30sp"
+	        />
+	       
+	    <TextView
+	        android:id="@+id/txtNumber"
+	        android:layout_marginTop="20dip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="200sp"
+	        android:textColor="#FFFFFF"
+	        style="@style/text_shadow_style"
+	        android:text="0" />
+	   <Button
+	        android:id="@+id/btnIncrease"
+	        android:layout_width="100dip"
+	        android:layout_height="50dip"
+	        android:background="#51000000"
+	        android:textColor="#c1000000"
+	        android:text="+"
+	        android:textSize="30sp"
+	   />    
+	</LinearLayout>
+</FrameLayout>
